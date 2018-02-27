@@ -1,0 +1,22 @@
+body {
+	--primary: #212121;
+	--dark: #1b1b1b;
+	--light: #6d6d6d;
+	font-family: sans-serif;
+	background: var(--primary);
+	color: white;
+	font-family: 'Anonymous Pro', monospace;
+}
+
+textarea {
+	font-size: 1.2em;
+	font-family: 'Anonymous Pro', monospace;
+	color: white;
+	background: var(--dark);
+	border: 2px solid var(--light);
+}
+
+textarea:focus {
+	outline: solid;
+	outline-color: #819ca9; 	
+}
